@@ -1,0 +1,42 @@
+[
+	{
+			"key"      : "alt+`",
+			"command"  : "php-docblocker.trigger"
+	},
+	{
+		"key"      : "alt+w",
+		"command"  : "wwm.aligncode",
+		"when"     : "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key"      : "alt+1",
+		"command"  : "bracket-pair-colorizer-2.expandBracketSelection"
+	},
+	{
+		"key"      : "alt+q",
+		"command"  : "extension.multiCommand.execute",
+		"args"     : { "command" : "multiCommand.formatAndSave" },
+		"when"     : "editorFocus"
+	},
+	{
+		"key": "ctrl+alt+b",
+		"command": "editor.emmet.action.balanceOut"
+	},
+	// {
+	// 	"key": "ctrl+;",
+	// 	"command": "extension.multiCommand.execute",
+	// 	"args" : {
+	// 		"sequence": [
+	// 			"extension.trailing-semicolon",
+	// 			"workbench.action.files.save",
+	// 			"cursorEnd"
+	// 		]
+	// 	},
+	// 	"when": "editorTextFocus"
+	// },
+	{
+		"key": "ctrl+;",
+		"command": "extension.trailing-semicolon",
+		"when": "editorTextFocus"
+	}
+]

@@ -1,0 +1,246 @@
+{
+	"intelephense.files.maxSize": 3000000,
+	"intelephense.format.braces": "allman",
+	"intelephense.stubs": [
+		"apache",
+		"bcmath",
+		"bz2",
+		"calendar",
+		"com_dotnet",
+		"Core",
+		"ctype",
+		"curl",
+		"date",
+		"dba",
+		"dom",
+		"enchant",
+		"exif",
+		"FFI",
+		"fileinfo",
+		"filter",
+		"fpm",
+		"ftp",
+		"gd",
+		"gettext",
+		"gmp",
+		"hash",
+		"iconv",
+		"imap",
+		"intl",
+		"json",
+		"ldap",
+		"libxml",
+		"mbstring",
+		"meta",
+		"mysqli",
+		"oci8",
+		"odbc",
+		"openssl",
+		"pcntl",
+		"pcre",
+		"PDO",
+		"pdo_ibm",
+		"pdo_mysql",
+		"pdo_pgsql",
+		"pdo_sqlite",
+		"pgsql",
+		"Phar",
+		"posix",
+		"pspell",
+		"readline",
+		"Reflection",
+		"session",
+		"shmop",
+		"SimpleXML",
+		"snmp",
+		"soap",
+		"sockets",
+		"sodium",
+		"SPL",
+		"sqlite3",
+		"standard",
+		"superglobals",
+		"sysvmsg",
+		"sysvsem",
+		"sysvshm",
+		"tidy",
+		"tokenizer",
+		"xml",
+		"xmlreader",
+		"xmlrpc",
+		"xmlwriter",
+		"xsl",
+		"Zend OPcache",
+		"zip",
+		"zlib",
+		"wordpress"
+		// "E:/Stubs/generatepress-stubs",
+		// "E:/Stubs/acf-pro-stubs",
+		// "E:/Stubs/custom-stubs",
+		// "E:/Stubs/woocommerce-stubs/woocommerce-packages-stubs",
+		// "E:/Stubs/woocommerce-stubs/woocommerce-stubs"
+	],
+
+	"intelephense.diagnostics.undefinedMethods": false,
+
+	// Prettier
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.bracketSpacing": true,
+	"prettier.trailingComma": "all",
+	"prettier.singleQuote": true,
+	"prettier.semi": true,
+
+	// Beautify
+	// "beautify.language": {
+	// 	"html": ["htm", "html", "php"]
+	// },
+
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"[php]": {
+		"editor.colorDecorators": true,
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+		"editor.formatOnSave": false
+	},
+
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.formatOnSave": false
+	},
+
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.formatOnSave": false
+	},
+
+	"scss.lint.unknownAtRules": "ignore",
+
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features",
+		"editor.formatOnSave": true
+	},
+	"javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+
+	// HTML PHP
+	"html.format.contentUnformatted": "pre,code,textarea",
+	"html.format.endWithNewline": false,
+	"html.format.extraLiners": "head, body, /html",
+	"html.format.indentHandlebars": false,
+	"html.format.indentInnerHtml": false,
+	"html.format.maxPreserveNewLines": null,
+	"html.format.preserveNewLines": true,
+	"html.format.wrapLineLength": 0,
+	"html.format.wrapAttributes": "auto",
+
+	"php.suggest.basic": false,
+
+	"material-icon-theme.folders.theme": "specific",
+	"workbench.iconTheme": "material-icon-theme",
+
+	
+	
+	// --------- COMMANDS --------
+	// MULTI-COMMAND
+	//Multi command for keybindings
+	"multiCommand.commands": [
+		{
+			"command": "multiCommand.alignAndSave",
+			"sequence": [
+				"editor.action.selectAll",
+				"wwm.aligncode",
+				"cancelSelection",
+				"workbench.action.files.save"
+			]
+		},
+		{
+			"command": "multiCommand.formatAndSave",
+			"sequence": [
+				"HookyQR.beautify",
+				"prettier.forceFormatDocument",
+				"workbench.action.files.save"
+			]
+		},
+		{ "command": "multiCommand.autoSemicolonAndSave" }
+	],
+
+	"trailing.jumpToSymbol": false,
+	// --------- END COMMANDS ----------
+
+	"editor.suggest.showStatusBar": true,
+	"editor.suggest.insertMode": "insert",
+	"editor.quickSuggestionsDelay": 1,
+	"editor.suggest.snippetsPreventQuickSuggestions": false,
+	"editor.colorDecorators": true,
+	"editor.wordWrap": "on",
+	"editor.snippetSuggestions": "top",
+	"editor.formatOnPaste": false,
+	"editor.fontLigatures": true,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": true,
+	"editor.formatOnSave": false,
+	"explorer.decorations.badges": false,
+	"editor.fontFamily": "Fira Code",
+	"editor.tabSize": 4,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"markdown.preview.fontSize": 18,
+	"terminal.integrated.fontSize": 12,
+	"emmet.showAbbreviationSuggestions": true,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.list.smoothScrolling": true,
+	"workbench.editor.pinnedTabSizing": "shrink",
+	"workbench.editor.wrapTabs": true,
+	"explorer.confirmDelete": false,
+	"files.defaultLanguage": "${activeEditorLanguage}",
+	"tabnine.experimentalAutoImports": true,
+	"editor.linkedEditing": true,
+	"dart.flutterSdkPath": "/Users/infinityhub/Desktop/Flutter Environment /flutter",
+	"bracket-pair-colorizer-2.depreciation-notice": false,
+	"terminal.integrated.fontFamily": "roboto mono",
+	"files.exclude": {
+		"**/.git": false
+	},
+	"vscode-pets.petSize": "large",
+	"vscode-pets.petColor": "yellow",
+	"vscode-pets.position": "explorer",
+	"vscode-pets.theme": "forest",
+	"editor.stickyScroll.enabled": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"svelte.enable-ts-plugin": true,
+	"[typescript]": {},
+	"php.executablePath": "/usr/local/bin/php",
+	// "intelephense.environment.phpVersion": "7.2.34",
+	"intelephense.diagnostics.deprecated": false,
+	"git.ignoreRebaseWarning": true,
+	"php-cs-fixer.onsave": false,
+	"php-cs-fixer.ignorePHPVersion": true,
+	"php-cs-fixer.formatHtml": false,
+	"php-cs-fixer.autoFixBySemicolon": true,
+	"php-cs-fixer.allowRisky": true,
+	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+	"php-cs-fixer.lastDownload": 1699769638262,
+	"workbench.settings.openDefaultKeybindings": true,
+	"gitlens.gitCommands.skipConfirmations": [
+		"fetch:command",
+		"switch:command"
+	],
+	"editor.minimap.autohide": true,
+	"editor.minimap.renderCharacters": false,
+	"editor.minimap.scale": 2,
+	"security.workspace.trust.untrustedFiles": "open"
+}
