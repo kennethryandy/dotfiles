@@ -22,6 +22,10 @@ cdopen()
 	cd $1 && start .
 }
 
+cdcode() {
+	cd $1 && code .
+}
+
 alias open="start ."
 alias c="code ."
 alias dev="npm run dev"
